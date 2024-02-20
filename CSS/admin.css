@@ -1,0 +1,112 @@
+body {
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* CSS for form section */
+.form-container {
+    width: 85%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 3rem;
+}
+
+.form-container form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    column-gap: 1rem;
+}
+
+.form-container form div label {
+    margin-right: 0.3rem;
+}
+
+.form-container button {
+    height: 1.75rem;
+    width: 7rem;
+    background-color: blue;
+    color: white;
+}
+
+/* CSS for table */
+.table-container {
+    width: 90%;
+}
+
+.table-container table {
+    width: 100%;
+    text-align: left;
+}
+
+th {
+    font-weight: 700;
+}
+
+.table-container table td:first-child,
+/* Table column width */
+th:first-child {
+    text-align: center;
+    width: 3%;
+}
+
+th:nth-child(2) {
+    width: 20%;
+}
+
+th:nth-child(3) {
+    width: 15%;
+}
+
+th:nth-child(4) {
+    width: 27%;
+}
+
+th:nth-child(5) {
+    width: 20%;
+}
+
+th:last-child {
+    width: 10%;
+}
+
+/*Style delete and update button*/
+td:last-child button {
+    width: 40%;
+    height: 2rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+}
+
+td:last-child button:first-child {
+    background-color: red;
+    color: white;
+}
+
+td:last-child button:last-child {
+    background-color: green;
+    color: white;
+}
+
+/* Style cho các thẻ span trong phần tech tags của bảng */
+.tag-span {
+    background-color: #8ec1f4;
+    color: black;
+    margin: 0rem 0.1rem;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 0.3rem;
+    /*Giúp cho độ lớn của background thay đổi theo độ dài của chữ*/
+}
+
+/* Style màu cho bảng */
+#table-head {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #F2F2F2;
+}
